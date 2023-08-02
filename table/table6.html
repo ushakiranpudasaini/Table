@@ -1,0 +1,157 @@
+<html class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                },
+                fontFamily: {
+                    poppins: ['Poppins', 'sans-serif'],
+                    Montserrat: ['Montserrat', 'sans-serif']
+                },
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins&display=swap" rel="stylesheet">
+    <title>
+        Table6
+    </title>
+</head>
+
+<body class="bg-gray-50 dark:bg-gray-800">
+    <section class="items-center lg:flex bg-blue-100 h-screen font-poppins dark:bg-gray-800 ">
+        <div class="justify-center flex-1 max-w-6xl px-4 py-4 mx-auto lg:py-8 md:px-6">
+            <table
+                class=" table-auto w-full bg-white dark:bg-gray-900 border  dark:text-gray-400 dark:border-gray-700 rounded">
+                <thead class="bg-blue-600">
+                    <tr>
+                        <th class="pl-6 py-6 border-r border-gray-400  dark:border-gray-400">
+                            <a class="flex items-center text-xs dark:text-gray-300 text-gray-100" href="#">
+                                <p>Name</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="dark:text-gray-300 ml-1 w-4 h-4 bi bi-arrow-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                                </svg>
+                            </a>
+                        </th>
+                        <th class="pl-6 border-r border-gray-400  dark:border-gray-400">
+                            <a class="flex items-center text-xs dark:text-gray-300 text-gray-100" href="#">
+                                <p>Position</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="ml-1 w-4 h-4 dark:text-gray-300 bi bi-arrow-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                                </svg>
+                            </a>
+                        </th>
+                        <th class="pl-6 border-r border-gray-400  dark:border-gray-400">
+                            <a class="flex items-center text-xs dark:text-gray-300 text-gray-100" href="#">
+                                <p>Office</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="ml-1 w-4 h-4 dark:text-gray-300 bi bi-arrow-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                                </svg>
+                            </a>
+                        </th>
+                        <th class="border-r border-gray-400  dark:border-gray-400">
+                            <a class="flex items-center justify-center text-xs dark:text-gray-100 text-gray-100"
+                                href="#">
+                                <p>Age</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="ml-1 dark:text-gray-300 w-4 h-4 bi bi-arrow-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                                </svg>
+                            </a>
+                        </th>
+                        <th class="pl-6 border-r border-gray-400  dark:border-gray-400">
+                            <a class="flex items-center text-xs text-gray-100 dark:text-gray-100" href="#">
+                                <p>Start Date</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="ml-1 w-4 dark:text-gray-300 h-4 bi bi-arrow-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                                </svg>
+                            </a>
+                        </th>
+                        <th class="pl-6">
+                            <a class="flex items-center text-xs dark:text-gray-300 text-gray-100" href="#">
+                                <p>Salary</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="ml-1 dark:text-gray-300 w-4 h-4 bi bi-arrow-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                                </svg>
+                            </a>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="text-xs bg-gray-100 dark:text-gray-400 dark:border-gray-700 dark:bg-gray-900 border">
+                        <td class="pl-6 py-6 border-l-0 border border-gray-200 dark:text-gray-400 dark:border-gray-700">
+                            Bryan Adams</td>
+                        <td class="pl-6 border border-gray-200 dark:text-gray-400 dark:border-gray-700">Technical writer
+                        </td>
+                        <td class="pl-6 border border-gray-200 dark:text-gray-400 dark:border-gray-700">Kathmandu</td>
+                        <td class="text-center border border-gray-200 dark:text-gray-400 dark:border-gray-700">27</td>
+                        <td class="pl-6 border border-gray-200 dark:text-gray-400 dark:border-gray-700">10/02/2022</td>
+                        <td class="pl-6 border-r-0 border border-gray-200 dark:text-gray-400 dark:border-gray-700">
+                            RS.40,000</td>
+                    </tr>
+                    <tr class="text-xs border dark:text-gray-400 dark:border-gray-700 dark:bg-gray-900">
+                        <td class="pl-6 py-6 border-l-0 border border-gray-200 dark:text-gray-400 dark:border-gray-700">
+                            Sarima K.C</td>
+                        <td class="pl-6 border border-gray-200 dark:text-gray-400 dark:border-gray-700">Java Developer
+                        </td>
+                        <td class="pl-6 border border-gray-200 dark:text-gray-400 dark:border-gray-700">Bhaktapur</td>
+                        <td class="text-center border border-gray-200 dark:text-gray-400 dark:border-gray-700">26</td>
+                        <td class="pl-6 border border-gray-200 dark:text-gray-400 dark:border-gray-700">11/02/2022</td>
+                        <td class="pl-6 border-r-0 border border-gray-200 dark:text-gray-400 dark:border-gray-700">
+                            RS.20,000</td>
+                    </tr>
+                    <tr class="text-xs bg-gray-100 dark:text-gray-400 dark:border-gray-700 dark:bg-gray-900 border">
+                        <td class="pl-6 py-6 border-l-0 border border-gray-200 dark:text-gray-400 dark:border-gray-700">
+                            Kiran Regmi</td>
+                        <td class="pl-6 border border-gray-200 dark:text-gray-400 dark:border-gray-700">IT Officer</td>
+                        <td class="pl-6 border border-gray-200 dark:text-gray-400 dark:border-gray-700">Kathmandu</td>
+                        <td class="text-center border border-gray-200 dark:text-gray-400 dark:border-gray-700">30</td>
+                        <td class="pl-6 border border-gray-200 dark:text-gray-400 dark:border-gray-700">01/03/2022</td>
+                        <td class="pl-6 border-r-0 border border-gray-200 dark:text-gray-400 dark:border-gray-700">
+                            RS.60,000</td>
+                    </tr>
+                    <tr class="text-xs">
+                        <td
+                            class="pl-6 py-6 border-l-0 border-r border-gray-200 dark:text-gray-400 dark:border-gray-700">
+                            Ismarika Sharma
+                        </td>
+                        <td class="pl-6 border-l border-r border-gray-200 dark:text-gray-400 dark:border-gray-700">
+                            Manager</td>
+                        <td class="pl-6 border-l border-r border-gray-200 dark:text-gray-400 dark:border-gray-700">
+                            Lalitpur</td>
+                        <td
+                            class="text-center border-l border-r border-gray-200 dark:text-gray-400 dark:border-gray-700">
+                            35</td>
+                        <td class="pl-6 border-l border-r border-gray-200 dark:text-gray-400 dark:border-gray-700">
+                            01/01/2022</td>
+                        <td class="pl-6 border-l border-gray-200 dark:text-gray-400 dark:border-gray-700">40,000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+
+</html>
